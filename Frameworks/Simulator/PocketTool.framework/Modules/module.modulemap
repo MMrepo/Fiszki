@@ -1,0 +1,4 @@
+framework module PocketTool {
+    header "PocketTool-Swift.h"
+    requires objc
+}

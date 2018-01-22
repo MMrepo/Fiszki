@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0920"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20CA84F2006436F005B7879"
+               BuildableName = "Fiszki.app"
+               BlueprintName = "Fiszki"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20CA8662006436F005B7879"
+               BuildableName = "FiszkiTests.xctest"
+               BlueprintName = "FiszkiTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20CA8712006436F005B7879"
+               BuildableName = "FiszkiUITests.xctest"
+               BlueprintName = "FiszkiUITests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C26DD2F22006555900A16F63"
+               BuildableName = "LoginModuleTests.xctest"
+               BlueprintName = "LoginModuleTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C26DD3142006558900A16F63"
+               BuildableName = "MainModuleTests.xctest"
+               BlueprintName = "MainModuleTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C26DD33B2006575E00A16F63"
+               BuildableName = "ModuleTests.xctest"
+               BlueprintName = "ModuleTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C26DD3792006791000A16F63"
+               BuildableName = "DomainTests.xctest"
+               BlueprintName = "DomainTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C22897012006879B00F36C2E"
+               BuildableName = "DummyPlatformTests.xctest"
+               BlueprintName = "DummyPlatformTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C204F4FB200B7562003D9DAD"
+               BuildableName = "UIControlBinderTests.xctest"
+               BlueprintName = "UIControlBinderTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2054676200E66C800AD02FE"
+               BuildableName = "ThemesTests.xctest"
+               BlueprintName = "ThemesTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20676A8200F4E34007AEDA5"
+               BuildableName = "VisualsTests.xctest"
+               BlueprintName = "VisualsTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20ACF972010FC9200B023B6"
+               BuildableName = "FlashcardLogoViewTests.xctest"
+               BlueprintName = "FlashcardLogoViewTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C20643972015FD0E00830902"
+               BuildableName = "CoreDataPlatformTests.xctest"
+               BlueprintName = "CoreDataPlatformTests"
+               ReferencedContainer = "container:Fiszki.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C20CA84F2006436F005B7879"
+            BuildableName = "Fiszki.app"
+            BlueprintName = "Fiszki"
+            ReferencedContainer = "container:Fiszki.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C20CA84F2006436F005B7879"
+            BuildableName = "Fiszki.app"
+            BlueprintName = "Fiszki"
+            ReferencedContainer = "container:Fiszki.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C20CA84F2006436F005B7879"
+            BuildableName = "Fiszki.app"
+            BlueprintName = "Fiszki"
+            ReferencedContainer = "container:Fiszki.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

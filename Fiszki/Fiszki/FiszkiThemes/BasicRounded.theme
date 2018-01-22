@@ -1,0 +1,48 @@
+{
+    "colors" : {
+        "secondary" : {
+            "normal": "#18452e",
+            "light": "#437157",
+            "dark": "#001f04",
+            "contrast": "#ffffff"
+        },
+        "primary" : {
+            "normal": "#49274a",
+            "light": "#755076",
+            "dark": "#220022",
+            "contrast": "#ffffff"
+        },
+        "icon" : {
+            "normal" : "#ffffff"
+        },
+        "divider" : {
+            "normal" : "#bdbdbd"
+        }
+    },
+    "viewsStyles" : {
+        "textView" : "rounded",
+        "button" : "borderedRoundedAndTransparent",
+        "textField" : "rounded",
+        "label" : "normal",
+        "collectionViewCell": "rounded"
+    },
+    "fonts" : {
+        "UICTFontTextStyleBody" : {
+            "name" : ".SFUIText",
+            "size" : 17
+        },
+        "UICTFontTextStyleLargeTitle": {
+            "name": ".SFUIDisplay",
+            "size": 32
+        },
+        "UICTFontTextStyleTitle1": {
+            "name": ".SFUIDisplay",
+            "size": 26
+        },
+        "UICTFontTextStyleCaption1" : {
+            "name" : ".SFUIText",
+            "size" : 12
+        }
+    }
+}
+

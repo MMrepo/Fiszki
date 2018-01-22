@@ -1,0 +1,4 @@
+framework module Iris {
+    header "Iris-Swift.h"
+    requires objc
+}
