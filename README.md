@@ -1,7 +1,5 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
 This is my experimental project to try out couple of my ideas. 
@@ -30,6 +28,10 @@ CoreDataPlatform with unit tests
 RealmPlatform with unit tests
 NetworkPlatform with unit tests
 UI tests 
-DesignDashboard - Special view, which will appear on the screen on shake gesture. It will allow to modify themes by designer, when using an app. For example change fonts, or colors of views.
+DesignDashboard - Special view, which will appear on the screen on shake gesture. It will allow to modify themes by designer, when using an app. For example change fonts, or colors of views (with ColorWheel control).
 
 Further features for flashcards application
+
+### Examples: ###
+[Themes and logo demo](https://bitbucket.org/MMrepo/fiszki/raw/9789cc07190a0b0e28b5256916e4b8b291ce279e/Videos/themesAndCards.mov)
+[Cards layout demo](https://bitbucket.org/MMrepo/fiszki/raw/9789cc07190a0b0e28b5256916e4b8b291ce279e/Videos/themesAndCards.mov)
