@@ -47,6 +47,6 @@ Further features for flashcards application
 
 ### Examples: ###
 
-[Themes and logo demo](https://github.com/MMrepo/fiszki/blob/master/Videos/themesAndLogo.mov)
+[Themes and logo demo](https://github.com/MMrepo/fiszki/raw/master/Videos/themesAndLogo.mov)
 
-[Cards layout demo](https://github.com/MMrepo/fiszki/blob/master/Videos/themesAndCards.mov)
+[Cards layout demo](https://github.com/MMrepo/fiszki/raw/master/Videos/themesAndCards.mov)
