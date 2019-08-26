@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Themes
 import FlashcardLogoView
 //import Iris
 

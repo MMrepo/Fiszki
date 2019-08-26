@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Themes
 
 public protocol Stylable:class {
     func setTheme(_ theme: Theme)

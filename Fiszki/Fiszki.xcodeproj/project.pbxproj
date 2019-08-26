@@ -26,17 +26,9 @@
 		C204F513200B75B9003D9DAD /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204F512200B75B9003D9DAD /* Variable.swift */; };
 		C204F515200B75F6003D9DAD /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204F514200B75F6003D9DAD /* Bindable.swift */; };
 		C204F517200B7676003D9DAD /* UIControls+Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204F516200B7676003D9DAD /* UIControls+Bindable.swift */; };
-		C2054678200E66C800AD02FE /* Themes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C205466F200E66C800AD02FE /* Themes.framework */; };
-		C205467F200E66C800AD02FE /* ThemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205467E200E66C800AD02FE /* ThemesTests.swift */; };
-		C2054681200E66C800AD02FE /* Themes.h in Headers */ = {isa = PBXBuildFile; fileRef = C2054671200E66C800AD02FE /* Themes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2054684200E66C800AD02FE /* Themes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C205466F200E66C800AD02FE /* Themes.framework */; };
-		C2054690200E685600AD02FE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205468F200E685600AD02FE /* Theme.swift */; };
 		C20627852014B66E0035C413 /* CardsCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20627842014B66E0035C413 /* CardsCollectionViewLayout.swift */; };
 		C2062787201546940035C413 /* FlashcardLogoView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20ACF902010FC9200B023B6 /* FlashcardLogoView.framework */; };
-		C20643872015F29100830902 /* Themes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C205466F200E66C800AD02FE /* Themes.framework */; };
 		C20643882015F2A200830902 /* Visuals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20676A1200F4E34007AEDA5 /* Visuals.framework */; };
-		C20643892015F2F000830902 /* MainModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD30D2006558900A16F63 /* MainModule.framework */; };
-		C206438A2015F2FA00830902 /* LoginModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD2EB2006555900A16F63 /* LoginModule.framework */; };
 		C20643992015FD0E00830902 /* CoreDataPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20643902015FD0E00830902 /* CoreDataPlatform.framework */; };
 		C20643A02015FD0E00830902 /* CoreDataPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C206439F2015FD0E00830902 /* CoreDataPlatformTests.swift */; };
 		C20643A22015FD0E00830902 /* CoreDataPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C20643922015FD0E00830902 /* CoreDataPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,6 +69,17 @@
 		C20CA8612006436F005B7879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20CA85F2006436F005B7879 /* LaunchScreen.storyboard */; };
 		C20CA86C2006436F005B7879 /* FiszkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CA86B2006436F005B7879 /* FiszkiTests.swift */; };
 		C20CA8772006436F005B7879 /* FiszkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CA8762006436F005B7879 /* FiszkiUITests.swift */; };
+		C21F63862018D01A0016F9F0 /* DebugThemeManagerSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F63852018D01A0016F9F0 /* DebugThemeManagerSettingsViewController.swift */; };
+		C21F638B2018D48F0016F9F0 /* DebugThemeManagerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F638A2018D48F0016F9F0 /* DebugThemeManagerSettingsView.swift */; };
+		C21F638D2019D61F0016F9F0 /* DebugColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F638C2019D61F0016F9F0 /* DebugColorTableViewCell.swift */; };
+		C21F63912019D6A30016F9F0 /* DebugColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21F63902019D6A30016F9F0 /* DebugColorTableViewCell.xib */; };
+		C21F6396201A08920016F9F0 /* DebugFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F6394201A08920016F9F0 /* DebugFontTableViewCell.swift */; };
+		C21F6397201A08920016F9F0 /* DebugFontTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21F6395201A08920016F9F0 /* DebugFontTableViewCell.xib */; };
+		C21F6399201A349A0016F9F0 /* ViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F6398201A349A0016F9F0 /* ViewController+Utils.swift */; };
+		C21F639A201A58AE0016F9F0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205468F200E685600AD02FE /* Theme.swift */; };
+		C21F639B201A58EC0016F9F0 /* Visuals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20676A1200F4E34007AEDA5 /* Visuals.framework */; };
+		C21F639C201A593B0016F9F0 /* Iris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2488A18200FA21700B2D3B5 /* Iris.framework */; };
+		C21F639E201A727D0016F9F0 /* DebugThemeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F639D201A727D0016F9F0 /* DebugThemeHeaderView.swift */; };
 		C22896E920067FC500F36C2E /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = C22896E820067FC500F36C2E /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C22896EC2006826C00F36C2E /* FlashcardUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22896EB2006826C00F36C2E /* FlashcardUseCases.swift */; };
 		C22897032006879B00F36C2E /* DummyPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22896FA2006879B00F36C2E /* DummyPlatform.framework */; };
@@ -86,9 +89,7 @@
 		C228971A2006884000F36C2E /* DummyFlashcardsUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22897192006884000F36C2E /* DummyFlashcardsUseCases.swift */; };
 		C228971D200688C000F36C2E /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD3722006791000A16F63 /* Domain.framework */; };
 		C2488A1A200FA22C00B2D3B5 /* Iris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2488A18200FA21700B2D3B5 /* Iris.framework */; };
-		C2488A1C200FA33100B2D3B5 /* Themes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C205466F200E66C800AD02FE /* Themes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C2488A1D200FA33B00B2D3B5 /* Iris.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2488A18200FA21700B2D3B5 /* Iris.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C2488A33200FCA6E00B2D3B5 /* Themes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C205466F200E66C800AD02FE /* Themes.framework */; };
 		C26DD2B020064D0300A16F63 /* PocketTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD2AE20064D0300A16F63 /* PocketTool.framework */; };
 		C26DD2B62006515F00A16F63 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DD2B52006515F00A16F63 /* Application.swift */; };
 		C26DD2F42006555900A16F63 /* LoginModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD2EB2006555900A16F63 /* LoginModule.framework */; };
@@ -128,6 +129,7 @@
 		C2EBCAB3200CC0EF000A7442 /* PocketTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD2AE20064D0300A16F63 /* PocketTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C2EBCAB7200CD1BE000A7442 /* Arithmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EBCAB6200CD1BE000A7442 /* Arithmos.framework */; };
 		C2EBCAB8200CD1D0000A7442 /* Arithmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EBCAB6200CD1BE000A7442 /* Arithmos.framework */; };
+		C2FA7A4F201F354100952EDC /* MainModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26DD30D2006558900A16F63 /* MainModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,27 +153,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = C204F4F3200B7561003D9DAD;
 			remoteInfo = UIControlBinder;
-		};
-		C2054679200E66C800AD02FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C20CA8482006436F005B7879 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C205466E200E66C800AD02FE;
-			remoteInfo = Themes;
-		};
-		C205467B200E66C800AD02FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C20CA8482006436F005B7879 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C20CA84F2006436F005B7879;
-			remoteInfo = Fiszki;
-		};
-		C2054682200E66C800AD02FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C20CA8482006436F005B7879 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C205466E200E66C800AD02FE;
-			remoteInfo = Themes;
 		};
 		C206439A2015FD0E00830902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -366,7 +347,6 @@
 			files = (
 				C2488A1D200FA33B00B2D3B5 /* Iris.framework in Embed Frameworks */,
 				C20ACFA62010FC9200B023B6 /* FlashcardLogoView.framework in Embed Frameworks */,
-				C2488A1C200FA33100B2D3B5 /* Themes.framework in Embed Frameworks */,
 				C20676B7200F4E34007AEDA5 /* Visuals.framework in Embed Frameworks */,
 				C2EBCAB3200CC0EF000A7442 /* PocketTool.framework in Embed Frameworks */,
 				C204F50A200B7562003D9DAD /* UIControlBinder.framework in Embed Frameworks */,
@@ -403,12 +383,6 @@
 		C204F512200B75B9003D9DAD /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 		C204F514200B75F6003D9DAD /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		C204F516200B7676003D9DAD /* UIControls+Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControls+Bindable.swift"; sourceTree = "<group>"; };
-		C205466F200E66C800AD02FE /* Themes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Themes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2054671200E66C800AD02FE /* Themes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Themes.h; sourceTree = "<group>"; };
-		C2054672200E66C800AD02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2054677200E66C800AD02FE /* ThemesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C205467E200E66C800AD02FE /* ThemesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesTests.swift; sourceTree = "<group>"; };
-		C2054680200E66C800AD02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C205468F200E685600AD02FE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C20627842014B66E0035C413 /* CardsCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewLayout.swift; sourceTree = "<group>"; };
 		C20643902015FD0E00830902 /* CoreDataPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -459,6 +433,14 @@
 		C20CA8722006436F005B7879 /* FiszkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiszkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20CA8762006436F005B7879 /* FiszkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiUITests.swift; sourceTree = "<group>"; };
 		C20CA8782006436F005B7879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21F63852018D01A0016F9F0 /* DebugThemeManagerSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugThemeManagerSettingsViewController.swift; sourceTree = "<group>"; };
+		C21F638A2018D48F0016F9F0 /* DebugThemeManagerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugThemeManagerSettingsView.swift; sourceTree = "<group>"; };
+		C21F638C2019D61F0016F9F0 /* DebugColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugColorTableViewCell.swift; sourceTree = "<group>"; };
+		C21F63902019D6A30016F9F0 /* DebugColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugColorTableViewCell.xib; sourceTree = "<group>"; };
+		C21F6394201A08920016F9F0 /* DebugFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugFontTableViewCell.swift; sourceTree = "<group>"; };
+		C21F6395201A08920016F9F0 /* DebugFontTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugFontTableViewCell.xib; sourceTree = "<group>"; };
+		C21F6398201A349A0016F9F0 /* ViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Utils.swift"; sourceTree = "<group>"; };
+		C21F639D201A727D0016F9F0 /* DebugThemeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugThemeHeaderView.swift; sourceTree = "<group>"; };
 		C22896E820067FC500F36C2E /* Domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		C22896EB2006826C00F36C2E /* FlashcardUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUseCases.swift; sourceTree = "<group>"; };
 		C22896FA2006879B00F36C2E /* DummyPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DummyPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -522,21 +504,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C205466B200E66C800AD02FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2054674200E66C800AD02FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2054678200E66C800AD02FE /* Themes.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C206438C2015FD0E00830902 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,8 +523,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2488A33200FCA6E00B2D3B5 /* Themes.framework in Frameworks */,
 				C2062787201546940035C413 /* FlashcardLogoView.framework in Frameworks */,
+				C21F639C201A593B0016F9F0 /* Iris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,7 +568,6 @@
 				C26DD2B020064D0300A16F63 /* PocketTool.framework in Frameworks */,
 				C20643A52015FD0E00830902 /* CoreDataPlatform.framework in Frameworks */,
 				C26DD3492006575E00A16F63 /* Module.framework in Frameworks */,
-				C2054684200E66C800AD02FE /* Themes.framework in Frameworks */,
 				C26DD3222006558A00A16F63 /* MainModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,9 +606,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20643892015F2F000830902 /* MainModule.framework in Frameworks */,
+				C2FA7A4F201F354100952EDC /* MainModule.framework in Frameworks */,
 				C20643882015F2A200830902 /* Visuals.framework in Frameworks */,
-				C20643872015F29100830902 /* Themes.framework in Frameworks */,
 				C26DD3592006595900A16F63 /* Module.framework in Frameworks */,
 				C2C15BFA2011198700E607DB /* Arithmos.framework in Frameworks */,
 			);
@@ -660,7 +625,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C206438A2015F2FA00830902 /* LoginModule.framework in Frameworks */,
 				C28277642013E1C8009EB44A /* PocketTool.framework in Frameworks */,
 				C2EBCAAD200CBE96000A7442 /* Domain.framework in Frameworks */,
 				C26DD3582006595300A16F63 /* Module.framework in Frameworks */,
@@ -680,6 +644,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21F639B201A58EC0016F9F0 /* Visuals.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,34 +742,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2054670200E66C800AD02FE /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				C205468C200E66DB00AD02FE /* Supporting Files */,
-				C205467D200E66C800AD02FE /* ThemesTests */,
-				C205468F200E685600AD02FE /* Theme.swift */,
-			);
-			path = Themes;
-			sourceTree = "<group>";
-		};
-		C205467D200E66C800AD02FE /* ThemesTests */ = {
-			isa = PBXGroup;
-			children = (
-				C205467E200E66C800AD02FE /* ThemesTests.swift */,
-				C2054680200E66C800AD02FE /* Info.plist */,
-			);
-			path = ThemesTests;
-			sourceTree = "<group>";
-		};
-		C205468C200E66DB00AD02FE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2054671200E66C800AD02FE /* Themes.h */,
-				C2054672200E66C800AD02FE /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C20643912015FD0E00830902 /* CoreDataPlatform */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,18 +781,13 @@
 		C20676A2200F4E34007AEDA5 /* Visuals */ = {
 			isa = PBXGroup;
 			children = (
+				C21F63872018D01C0016F9F0 /* Debug */,
+				C21F63842018CFE10016F9F0 /* Views */,
 				C20676BE200F4E4D007AEDA5 /* Supporting Files */,
 				C20676AF200F4E34007AEDA5 /* VisualsTests */,
-				C20676BF200F4EC0007AEDA5 /* StandardButton.swift */,
-				C20676C1200F4ECD007AEDA5 /* StandardTextField.swift */,
-				C20676C3200F4ED6007AEDA5 /* StandardTextView.swift */,
-				C20676C5200F4F10007AEDA5 /* StandardWithLeftImageTextField.swift */,
 				C20676C9200F71AE007AEDA5 /* Stylable.swift */,
-				C20676D4200F8F13007AEDA5 /* BackgroundView.swift */,
-				C20676D6200F91A6007AEDA5 /* SmallStandardButton.swift */,
-				C2C15BFB20111D0400E607DB /* StandardLabel.swift */,
+				C205468F200E685600AD02FE /* Theme.swift */,
 				C20676C7200F5B78007AEDA5 /* ThemeManager.swift */,
-				C2C15C14201227CB00E607DB /* StandardCollectionViewCell.swift */,
 			);
 			path = Visuals;
 			sourceTree = "<group>";
@@ -928,7 +860,6 @@
 				C20CA8522006436F005B7879 /* Fiszki */,
 				C20CA86A2006436F005B7879 /* FiszkiTests */,
 				C20CA8752006436F005B7879 /* FiszkiUITests */,
-				C2054670200E66C800AD02FE /* Themes */,
 				C20676A2200F4E34007AEDA5 /* Visuals */,
 				C20ACF912010FC9200B023B6 /* FlashcardLogoView */,
 				C20CA8512006436F005B7879 /* Products */,
@@ -955,8 +886,6 @@
 				C22897022006879B00F36C2E /* DummyPlatformTests.xctest */,
 				C204F4F4200B7562003D9DAD /* UIControlBinder.framework */,
 				C204F4FC200B7562003D9DAD /* UIControlBinderTests.xctest */,
-				C205466F200E66C800AD02FE /* Themes.framework */,
-				C2054677200E66C800AD02FE /* ThemesTests.xctest */,
 				C20676A1200F4E34007AEDA5 /* Visuals.framework */,
 				C20676A9200F4E34007AEDA5 /* VisualsTests.xctest */,
 				C20ACF902010FC9200B023B6 /* FlashcardLogoView.framework */,
@@ -999,6 +928,35 @@
 				C20CA8782006436F005B7879 /* Info.plist */,
 			);
 			path = FiszkiUITests;
+			sourceTree = "<group>";
+		};
+		C21F63842018CFE10016F9F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C20676BF200F4EC0007AEDA5 /* StandardButton.swift */,
+				C20676C1200F4ECD007AEDA5 /* StandardTextField.swift */,
+				C20676C3200F4ED6007AEDA5 /* StandardTextView.swift */,
+				C20676C5200F4F10007AEDA5 /* StandardWithLeftImageTextField.swift */,
+				C20676D4200F8F13007AEDA5 /* BackgroundView.swift */,
+				C20676D6200F91A6007AEDA5 /* SmallStandardButton.swift */,
+				C2C15BFB20111D0400E607DB /* StandardLabel.swift */,
+				C2C15C14201227CB00E607DB /* StandardCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C21F63872018D01C0016F9F0 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				C21F63852018D01A0016F9F0 /* DebugThemeManagerSettingsViewController.swift */,
+				C21F638A2018D48F0016F9F0 /* DebugThemeManagerSettingsView.swift */,
+				C21F63902019D6A30016F9F0 /* DebugColorTableViewCell.xib */,
+				C21F638C2019D61F0016F9F0 /* DebugColorTableViewCell.swift */,
+				C21F6394201A08920016F9F0 /* DebugFontTableViewCell.swift */,
+				C21F6395201A08920016F9F0 /* DebugFontTableViewCell.xib */,
+				C21F639D201A727D0016F9F0 /* DebugThemeHeaderView.swift */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		C22896FB2006879B00F36C2E /* DummyPlatform */ = {
@@ -1100,6 +1058,7 @@
 				C26DD3422006575E00A16F63 /* ModuleTests */,
 				C26DD3562006591100A16F63 /* Navigator.swift */,
 				C20493A92008D4070037A621 /* ViewWithViewModel.swift */,
+				C21F6398201A349A0016F9F0 /* ViewController+Utils.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -1288,14 +1247,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C205466C200E66C800AD02FE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2054681200E66C800AD02FE /* Themes.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C206438D2015FD0E00830902 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1398,44 +1349,6 @@
 			name = UIControlBinderTests;
 			productName = UIControlBinderTests;
 			productReference = C204F4FC200B7562003D9DAD /* UIControlBinderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C205466E200E66C800AD02FE /* Themes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C205468A200E66C800AD02FE /* Build configuration list for PBXNativeTarget "Themes" */;
-			buildPhases = (
-				C20676DB200F9765007AEDA5 /* Carthage */,
-				C205466A200E66C800AD02FE /* Sources */,
-				C205466B200E66C800AD02FE /* Frameworks */,
-				C205466C200E66C800AD02FE /* Headers */,
-				C205466D200E66C800AD02FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Themes;
-			productName = Themes;
-			productReference = C205466F200E66C800AD02FE /* Themes.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C2054676200E66C800AD02FE /* ThemesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C205468B200E66C800AD02FE /* Build configuration list for PBXNativeTarget "ThemesTests" */;
-			buildPhases = (
-				C2054673200E66C800AD02FE /* Sources */,
-				C2054674200E66C800AD02FE /* Frameworks */,
-				C2054675200E66C800AD02FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C205467A200E66C800AD02FE /* PBXTargetDependency */,
-				C205467C200E66C800AD02FE /* PBXTargetDependency */,
-			);
-			name = ThemesTests;
-			productName = ThemesTests;
-			productReference = C2054677200E66C800AD02FE /* ThemesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C206438F2015FD0E00830902 /* CoreDataPlatform */ = {
@@ -1569,7 +1482,6 @@
 				C26DD3862006791000A16F63 /* PBXTargetDependency */,
 				C228970E2006879B00F36C2E /* PBXTargetDependency */,
 				C204F508200B7562003D9DAD /* PBXTargetDependency */,
-				C2054683200E66C800AD02FE /* PBXTargetDependency */,
 				C20676B5200F4E34007AEDA5 /* PBXTargetDependency */,
 				C20ACFA42010FC9200B023B6 /* PBXTargetDependency */,
 				C20643A42015FD0E00830902 /* PBXTargetDependency */,
@@ -1821,16 +1733,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = C20CA84F2006436F005B7879;
 					};
-					C205466E200E66C800AD02FE = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
-					};
-					C2054676200E66C800AD02FE = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C20CA84F2006436F005B7879;
-					};
 					C206438F2015FD0E00830902 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -1954,8 +1856,6 @@
 				C22897012006879B00F36C2E /* DummyPlatformTests */,
 				C204F4F3200B7561003D9DAD /* UIControlBinder */,
 				C204F4FB200B7562003D9DAD /* UIControlBinderTests */,
-				C205466E200E66C800AD02FE /* Themes */,
-				C2054676200E66C800AD02FE /* ThemesTests */,
 				C20676A0200F4E34007AEDA5 /* Visuals */,
 				C20676A8200F4E34007AEDA5 /* VisualsTests */,
 				C20ACF8F2010FC9200B023B6 /* FlashcardLogoView */,
@@ -1981,20 +1881,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C205466D200E66C800AD02FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2054675200E66C800AD02FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C206438E2015FD0E00830902 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2013,6 +1899,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21F6397201A08920016F9F0 /* DebugFontTableViewCell.xib in Resources */,
+				C21F63912019D6A30016F9F0 /* DebugColorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2139,24 +2027,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C20676DB200F9765007AEDA5 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Frameworks/Iris.framework",
-				"$(SRCROOT)/../Frameworks/PocketTool.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Iris.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PocketTool.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		C20ACFB02010FE5E00B023B6 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2230,22 +2100,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C205466A200E66C800AD02FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2054690200E685600AD02FE /* Theme.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2054673200E66C800AD02FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C205467F200E66C800AD02FE /* ThemesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C206438B2015FD0E00830902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2265,15 +2119,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21F63862018D01A0016F9F0 /* DebugThemeManagerSettingsViewController.swift in Sources */,
 				C20676C4200F4ED6007AEDA5 /* StandardTextView.swift in Sources */,
 				C20676C2200F4ECD007AEDA5 /* StandardTextField.swift in Sources */,
+				C21F639E201A727D0016F9F0 /* DebugThemeHeaderView.swift in Sources */,
 				C2C15BFC20111D0400E607DB /* StandardLabel.swift in Sources */,
 				C20676D7200F91A6007AEDA5 /* SmallStandardButton.swift in Sources */,
 				C20676D5200F8F13007AEDA5 /* BackgroundView.swift in Sources */,
+				C21F6396201A08920016F9F0 /* DebugFontTableViewCell.swift in Sources */,
 				C2C15C15201227CB00E607DB /* StandardCollectionViewCell.swift in Sources */,
+				C21F638B2018D48F0016F9F0 /* DebugThemeManagerSettingsView.swift in Sources */,
 				C2C15C09201216C900E607DB /* ThemeManager.swift in Sources */,
 				C20676CA200F71AE007AEDA5 /* Stylable.swift in Sources */,
 				C20676C0200F4EC0007AEDA5 /* StandardButton.swift in Sources */,
+				C21F639A201A58AE0016F9F0 /* Theme.swift in Sources */,
+				C21F638D2019D61F0016F9F0 /* DebugColorTableViewCell.swift in Sources */,
 				C20676C6200F4F10007AEDA5 /* StandardWithLeftImageTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2396,6 +2256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20493AA2008D4070037A621 /* ViewWithViewModel.swift in Sources */,
+				C21F6399201A349A0016F9F0 /* ViewController+Utils.swift in Sources */,
 				C26DD3572006591100A16F63 /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2443,21 +2304,6 @@
 			isa = PBXTargetDependency;
 			target = C204F4F3200B7561003D9DAD /* UIControlBinder */;
 			targetProxy = C204F507200B7562003D9DAD /* PBXContainerItemProxy */;
-		};
-		C205467A200E66C800AD02FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C205466E200E66C800AD02FE /* Themes */;
-			targetProxy = C2054679200E66C800AD02FE /* PBXContainerItemProxy */;
-		};
-		C205467C200E66C800AD02FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C20CA84F2006436F005B7879 /* Fiszki */;
-			targetProxy = C205467B200E66C800AD02FE /* PBXContainerItemProxy */;
-		};
-		C2054683200E66C800AD02FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C205466E200E66C800AD02FE /* Themes */;
-			targetProxy = C2054682200E66C800AD02FE /* PBXContainerItemProxy */;
 		};
 		C206439B2015FD0E00830902 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2694,99 +2540,6 @@
 			};
 			name = Release;
 		};
-		C2054686200E66C800AD02FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B7YMYXCSWP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../Carthage/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/../Frameworks",
-					"$(PROJECT_DIR)/../Frameworks/Iris.framework",
-				);
-				INFOPLIST_FILE = "Themes/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vindur.Themes;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C2054687200E66C800AD02FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B7YMYXCSWP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../Carthage/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/../Frameworks",
-					"$(PROJECT_DIR)/../Frameworks/Iris.framework",
-				);
-				INFOPLIST_FILE = "Themes/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vindur.Themes;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C2054688200E66C800AD02FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B7YMYXCSWP;
-				INFOPLIST_FILE = ThemesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vindur.ThemesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiszki.app/Fiszki";
-			};
-			name = Debug;
-		};
-		C2054689200E66C800AD02FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B7YMYXCSWP;
-				INFOPLIST_FILE = ThemesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vindur.ThemesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiszki.app/Fiszki";
-			};
-			name = Release;
-		};
 		C20643A82015FD0E00830902 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2879,6 +2632,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Frameworks",
+					"$(PROJECT_DIR)/../Carthage/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Visuals/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2905,6 +2662,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Frameworks",
+					"$(PROJECT_DIR)/../Carthage/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Visuals/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -3703,24 +3464,6 @@
 			buildConfigurations = (
 				C204F50F200B7562003D9DAD /* Debug */,
 				C204F510200B7562003D9DAD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C205468A200E66C800AD02FE /* Build configuration list for PBXNativeTarget "Themes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2054686200E66C800AD02FE /* Debug */,
-				C2054687200E66C800AD02FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C205468B200E66C800AD02FE /* Build configuration list for PBXNativeTarget "ThemesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2054688200E66C800AD02FE /* Debug */,
-				C2054689200E66C800AD02FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

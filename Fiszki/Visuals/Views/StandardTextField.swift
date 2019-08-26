@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Themes
 
 open class StandardTextField: UITextField, Stylable{
     @objc dynamic open var placeholderColor: UIColor? {
@@ -27,9 +26,10 @@ open class StandardTextField: UITextField, Stylable{
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+   public required init?(coder aDecoder: NSCoder) {
+      super.init(coder: aDecoder)
+      self.translatesAutoresizingMaskIntoConstraints = false
+   }
     
     @objc dynamic open var borderColor: UIColor? {
         get {

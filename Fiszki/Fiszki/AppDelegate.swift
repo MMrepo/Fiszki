@@ -9,6 +9,7 @@
 import UIKit
 import Arithmos
 import PocketTool
+import Visuals
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

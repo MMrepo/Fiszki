@@ -20,20 +20,36 @@ public enum ViewStyle: String, Codable {
     case borderedRoundedAndTransparent
 }
 
-public struct Theme {
-    public struct ColorSet {
+public protocol PropertiesManagable {
+   var properties: [Mirror.Child] {get}
+   var propertiesCount: Int {get}
+}
+
+extension PropertiesManagable
+{
+   public var properties: [Mirror.Child] {
+      return Mirror(reflecting: self).children.flatMap { $0 }
+   }
+   
+   public var propertiesCount: Int {
+      return properties.count
+   }
+}
+
+public struct Theme:PropertiesManagable {
+   public struct ColorSet:PropertiesManagable {
         public let normal: UIColor
         public let light: UIColor?
         public let dark: UIColor?
         public let contrast: UIColor?
     }
     
-    struct FontSet: Codable {
+   internal struct FontSet: Codable, PropertiesManagable {
         let name: String
         let size: CGFloat
     }
     
-    public struct ViewsStyles: Codable {
+    public struct ViewsStyles: Codable, PropertiesManagable {
         public let textField: ViewStyle
         public let textView: ViewStyle
         public let button: ViewStyle
@@ -41,14 +57,14 @@ public struct Theme {
         public let collectionViewCell: ViewStyle
     }
     
-    public struct Colors: Codable {
+    public struct Colors: Codable, PropertiesManagable {
         public let primary: ColorSet
         public let secondary: ColorSet
         public let icon: ColorSet
         public let divider: ColorSet
     }
     
-    private let fonts: [UIFontTextStyle:FontSet]
+    internal let fonts: [UIFontTextStyle:FontSet]
     public let colors: Colors
     public let viewsStyles: ViewsStyles
     

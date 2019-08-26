@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Themes
 
 open class StandardButton: UIButton, Stylable {
     @objc dynamic public var titleLabelFont: UIFont! {
@@ -54,8 +53,9 @@ open class StandardButton: UIButton, Stylable {
     }
     
    public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+      super.init(coder: aDecoder)
+      self.translatesAutoresizingMaskIntoConstraints = false
+   }
     
     @objc dynamic public var borderColor: UIColor? {
         get {

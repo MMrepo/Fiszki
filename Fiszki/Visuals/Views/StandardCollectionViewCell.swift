@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Themes
 
 open class StandardCollectionViewCell: UICollectionViewCell, Stylable {
    @objc dynamic public var backgroundColorNormal: UIColor? {
@@ -26,7 +25,8 @@ open class StandardCollectionViewCell: UICollectionViewCell, Stylable {
    }
    
    public required init?(coder aDecoder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
+      super.init(coder: aDecoder)
+      self.translatesAutoresizingMaskIntoConstraints = false
    }
    
    @objc dynamic public var borderColor: UIColor? {

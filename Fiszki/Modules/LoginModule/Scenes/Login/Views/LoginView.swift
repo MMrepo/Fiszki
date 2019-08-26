@@ -10,7 +10,6 @@ import UIKit
 import UIControlBinder
 import Arithmos
 import AudioToolbox
-import Themes
 import Visuals
 import FlashcardLogoView
 
